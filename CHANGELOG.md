@@ -3,6 +3,24 @@
 All notable changes to Cue for macOS. Versions follow [Semantic Versioning](https://semver.org).
 Downloads for every version are on the [Releases](https://github.com/ysta32/cue-releases/releases) page.
 
+## [1.2.0] — 2026-10-07
+
+Your tasks follow you between Macs, and Cue understands more of what you say.
+
+### Added
+- **More follows you.** A task's checklist, extra links and reminder choice sync to your other
+  Mac, and so do your class schedule and the locations of Apple Calendar events.
+- **Places and notes from speech.** "study group at Levine 101 at 6" saves the place as the
+  location; "dinner at 7, bring the charger" saves the extra words as a note.
+- "Delete the laundry one" now works.
+
+### Changed
+- The plan no longer counts work due earlier again on later days.
+- Pairing codes have an extra limit on how often they can be tried across all Macs.
+
+### Removed
+- Cue no longer speaks: the spoken briefing and spoken answers are gone. Q still answers in text.
+
 ## [1.1.0] — 2026-10-07
 
 Plan a whole week by voice, use Cue on a second Mac, and plainer messages when something goes wrong.
