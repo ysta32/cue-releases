@@ -12,6 +12,8 @@ The first public release. Free for everyone, no invite needed.
 - **Check for Updates…** in the Cue menu, plus a note in Settings when a new version is out.
 - Alarm-style requests ("wake me up at 7", "set an alarm for 8 pm to take pills") now make a
   timed task with a reminder at that time, so nothing you say gets lost.
+- Reminders that come with a request follow later changes to it. A reminder you pick on your Mac
+  is never overwritten.
 
 ### Changed
 - The privacy notice and policy are rewritten for the public release, in plain language.
