@@ -1,0 +1,53 @@
+name: Bug report
+description: Something in Cue isn't working the way it should.
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time. A clear report gets fixed fastest.
+        Please don't include passwords, tokens or private calendar details.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, what you expected, and what happened instead.
+      placeholder: I said "move the lab report to monday" and it moved the pset instead.
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Press ⌥Space
+        2. Say "…"
+        3. …
+  - type: input
+    id: version
+    attributes:
+      label: Cue version
+      description: Cue → About Cue, or Settings → About.
+      placeholder: "1.0.0 (100)"
+    validations:
+      required: true
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "macOS 26.1"
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Area
+      options:
+        - Capture (typing or voice)
+        - Asking Q
+        - Today / Week / Month
+        - Google or Apple Calendar
+        - Canvas or syllabus import
+        - Account and sync
+        - Install or updates
+        - Something else

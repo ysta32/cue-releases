@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Install help
+    url: https://github.com/ysta32/cue-releases#install
+    about: Steps for the first launch on macOS 15 and later ("Open Anyway").
