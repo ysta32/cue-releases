@@ -3,6 +3,28 @@
 All notable changes to Cue for macOS. Versions follow [Semantic Versioning](https://semver.org).
 Downloads for every version are on the [Releases](https://github.com/ysta32/cue-releases/releases) page.
 
+## [1.1.0] — 2026-10-07
+
+Plan a whole week by voice, use Cue on a second Mac, and plainer messages when something goes wrong.
+
+### Added
+- **Plan your week.** "study 6 hours this week" or "gym 3 times this week" shows a card of sessions
+  in your free time, from today through Sunday (on a Sunday, through the following Sunday).
+- **Use Cue on another Mac.** Settings → Account → Use Cue on another Mac gives a code that works
+  once, for 10 minutes.
+- **Edit by voice.** Move, rename or delete a task by saying so; Cue asks which one if several fit.
+- Task locations sync between Macs.
+- Help → Cue Help and Help → Contact Support, and credits and links in About.
+- **Connect again** for Google Calendar when it lacks permission to change events.
+
+### Changed
+- Setup has an account step you can skip, asks before downloading the 480 MB voice model, and
+  leaves Open Cue when I log in off.
+- Errors read as plain sentences. Cue says when you're offline, when notifications or the
+  microphone are off, and when a request was saved only in Cue.
+- Real accounts no longer see sample tasks. Failed saves can be retried. Error logs keep only the
+  type of error, never what you wrote.
+
 ## [1.0.0] — 2026-10-07
 
 The first public release. Free for everyone, no invite needed.
