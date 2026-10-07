@@ -17,6 +17,8 @@ The first public release. Free for everyone, no invite needed.
 
 ### Changed
 - The privacy notice and policy are rewritten for the public release, in plain language.
+- The privacy notice and policy now say that Apple Calendar events, if you connect it, are copied
+  to Cue's server so Q and planning can use them.
 - Send Feedback falls back to the public issue tracker when you're offline.
 - Release downloads are now `Cue-<version>-mac.zip`, with a SHA-256 checksum next to each one.
 

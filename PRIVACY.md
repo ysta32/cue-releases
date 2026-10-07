@@ -20,6 +20,10 @@ Here's what we collect, why, and where it goes.
   connect those, plus the **Canvas feed URL** and **Google Calendar tokens** themselves. If you
   allow it when connecting Google Calendar, Cue can also add, change and delete events on your
   own Google Calendar, only when you confirm a change in the app.
+- **Apple Calendar events**, if you connect Apple Calendar: the Mac app reads your calendars
+  with your permission and copies their events (titles, start and end times, calendar names,
+  links and notes) to Cue's server, so Q and planning can see them like Google Calendar events.
+  Disconnecting Apple Calendar in Settings removes those copies from the server.
 - **LLM cost records** (how much a request cost), for keeping usage in budget.
 
 ## Where it goes
