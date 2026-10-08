@@ -3,6 +3,23 @@
 All notable changes to Cue for macOS. Versions follow [Semantic Versioning](https://semver.org).
 Downloads for every version are on the [Releases](https://github.com/ysta32/cue-releases/releases) page.
 
+## [1.3.1] — 2026-10-08
+
+Today now tells you why a task is first.
+
+### Added
+- **See why a task is near the top.** Today shows a short reason under each task, and in its
+  tooltip.
+
+### Changed
+- Your morning summary notification, wrap-up, the agenda export and Today's tips follow the same
+  smart order as Today, and notifications update when that order changes.
+
+### Fixed
+- Canvas items you deleted stay deleted, even if Canvas briefly drops them from your feed. Old
+  deletion records clear themselves once the item has been gone from Canvas for 30 days.
+- Safer requests: there is now a limit on one capture field.
+
 ## [1.3.0] — 2026-10-07
 
 A fresh look, and your timer, working hours and weekly review now match on every Mac.
