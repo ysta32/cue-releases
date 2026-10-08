@@ -3,6 +3,35 @@
 All notable changes to Cue for macOS. Versions follow [Semantic Versioning](https://semver.org).
 Downloads for every version are on the [Releases](https://github.com/ysta32/cue-releases/releases) page.
 
+## [1.3.0] — 2026-10-07
+
+A fresh look, and your timer, working hours and weekly review now match on every Mac.
+
+### Added
+- **A new look.** A new pixel Q logo and app icon, and a redesign of Today, capture, the task
+  editor, focus, history, the weekly review and Settings. A **Text size** setting is in
+  Settings → Appearance.
+- **Your timer follows you.** Time logged on a task and your working hours sync between Macs.
+  Logged time never goes down unless you reset it.
+- **Focus from anywhere.** "focus on physics for 50 minutes" or "stop focusing"; the time counts
+  toward the task.
+- **Smarter order.** Cue learns from your deadlines and how you finish work, and uses it to order
+  Today and to answer "what should I do first?".
+- **Better new-item cards.** Edit the place and notes before you save, and turn Add to Google
+  Calendar on or off for new events when Google Calendar is connected with permission to add events.
+
+### Changed
+- At risk uses your working hours and logged time, so Q agrees with the badge on your Mac. When
+  something is at risk, Q offers to start a focus session on it from Today.
+- The weekly review matches on every Mac.
+- "Due soon" shows the time Cue planned for each day, not an even split.
+
+### Fixed
+- Adding something that is already on a list does nothing.
+- A trailing "urgent" is understood, and a bare 11:59 means the end of the day.
+- A crash can no longer bring back things you deleted on another Mac.
+- Canvas items you deleted stay deleted.
+
 ## [1.2.0] — 2026-10-07
 
 Your tasks follow you between Macs, and Cue understands more of what you say.
